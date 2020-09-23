@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="jq.css">
+   
+</head>
+<body>
+   <center>
+   <div style="display: block;">
+    <input type="text" name='ivent' id='ivent'>
+       <button id="res" style="color:red;width:30px;height:55px;">X</button>
+       <button id="cof" style="color:green;width:30px;height:55px;"><</button></div>
+    <table>
+        <tr>
+            <td><button onclick="add('1')">1</button></td>
+            <td><button onclick="add('2')">2</button></td>
+            <td><button onclick="add('3')">3</button></td>
+            <td><button onclick="add('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="add('4')">4</button></td>
+            <td><button onclick="add('5')">5</button></td>
+            <td><button onclick="add('6')">6</button></td>
+            <td><button onclick="add('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="add('7')">7</button></td>
+            <td><button onclick="add('8')">8</button></td>
+            <td><button onclick="add('9')">9</button></td>
+           <td><button onclick="add('*')">*</button></td>
+        </tr>
+         <tr>
+            <td colspan="2" ><button onclick="add('0')">0</button></td>
+            
+            <td><button onclick="add('/')">/</button></td>
+            <td><button id="rowna">=</button></td>
+        </tr>
+    </table>
+    <hr>
+       <div id="bokc"></div>
+</center>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+ <script src='jq.js'></script>
+</body>
+</html>
